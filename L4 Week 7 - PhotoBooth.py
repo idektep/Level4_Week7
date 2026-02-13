@@ -9,7 +9,7 @@ folder_path = os.path.join('CaptureImages')
 
 # List all image files in the folder
 img_file = [f for f in os.listdir(folder_path) if f.endswith('.jpg')]
-
+img_file.sort()
 # Create a new blank image to hold the 4 images.
 result = None
 
